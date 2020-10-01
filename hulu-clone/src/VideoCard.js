@@ -1,10 +1,12 @@
 import React from 'react'
 import './VideoCard.css'
 
+const base_url = "http://image.tmdb.org/t/p/original"
+
 function VideoCard({ movie }) {
     return (
         <div className="videoCard">
-            <img src="https://miro.medium.com/max/700/1*Wed2L5hgVHz97eBt-EpbPg.jpeg" alt=""/>
+            <img src={} alt=""/>
             <p>This is a film about coding</p>
             <h2>Movie title</h2>
 
