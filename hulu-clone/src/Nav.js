@@ -11,8 +11,8 @@ function Nav({setSelectedOption}) {
             <h2 onClick={() => setSelectedOption(requests.fetchHorrorMovies)}>Horror</h2>
             <h2 onClick={() => setSelectedOption(requests.fetchRomanceMovies)}>Romance</h2>
             <h2 onClick={() => setSelectedOption(requests.fetchMysteryMovies)}>Mystery</h2>
-            <h2>Sci-fi</h2>
-            <h2>Werstern</h2>
+            <h2 onClick={() => setSelectedOption(requests.fetchSciFiMovies)}>Sci-fi</h2>
+            <h2 onClick={() => setSelectedOption(requests.fetchWersternMovies)}>Werstern</h2>
             <h2>Animation</h2>
             <h2>Movie</h2>
         </div>
