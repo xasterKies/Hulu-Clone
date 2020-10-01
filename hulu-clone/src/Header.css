@@ -8,6 +8,7 @@
     overflow-x: scroll;
 }
 
+/*Removing scroll*/
 .header::-webkit-scrollbar {
     display: none;
 }
@@ -16,6 +17,7 @@
     -ms-overflow-style: none;
     scrollbar-width: none;
 }
+/*Removing scroll*/
 
 .header__icons {
     display: flex;
