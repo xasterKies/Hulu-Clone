@@ -14,8 +14,6 @@ function VideoCard({ movie }) {
               truncateText="..."
               text={movie.overview}
             />
-
-            <p>{movie.overview}</p>
             <h2>Movie title</h2>
 
             <p>Number of likes...</p>
