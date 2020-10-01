@@ -1,6 +1,9 @@
 import React from 'react'
 import './Header.css'
 import HomeIcon from '@material-ui/icons/Home'
+import FlashOnIcon from '@material-ui/icons/FlashOn'
+import LiveTvIcon from '@material-ui/icons/LiveTv'
+import HomeIcon from '@material-ui/icons/Home'
 
 function Header() {
     return (
