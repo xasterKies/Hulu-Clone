@@ -1,6 +1,7 @@
 import React from 'react'
 import './VideoCard.css'
 import TextTruncate from "react-text-truncate"
+import ThumbUpSharp from 'ma'
 
 const base_url = "http://image.tmdb.org/t/p/original";
 
