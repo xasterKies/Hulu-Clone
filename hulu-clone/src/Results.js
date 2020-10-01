@@ -21,7 +21,7 @@ function Results() {
     return (
         <div className="results">
             {movies.map(movie => {
-                <VideoCard/>
+                <VideoCard movie= {movie}/>
             })}
             
             
