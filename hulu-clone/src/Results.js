@@ -15,7 +15,7 @@ function Results( {selectedOption}) {
         }
 
         fetchData();
-    }, [])
+    }, [selectedOption])
     
 
     return (
