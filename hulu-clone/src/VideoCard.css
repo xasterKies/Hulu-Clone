@@ -1,6 +1,6 @@
 .videoCard{
     color: white;
-    width: 500px;
+    width: 450px;
     height: 400px;
     padding: 20px;
     margin: 20px;
@@ -14,7 +14,7 @@
 .videoCard > img {
     height: 300px;
     object-fit: contain;
-    width: 4500px;
+    width: 40px;
 }
 
 .videoCard > h2 {
