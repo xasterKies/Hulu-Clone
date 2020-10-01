@@ -1,6 +1,8 @@
 .header {
     color: white;
     display: flex;
+    padding: 20px;
+    align-items: center;
 
 }
 
