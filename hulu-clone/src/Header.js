@@ -13,6 +13,11 @@ function Header() {
         <div className="header">
             <div className="header__icons">
                 <HomeIcon/>
+                <FlashOnIcon/>
+                <LiveTvIcon/>
+                <SearchIcon/>
+                <VideoLibraryIcon/>
+                <PersonOutlineIcon/>
 
             </div>
             <img src="https://press:hulu.com/wp.content/uploads/2020/02/hulu-white.png" alt="logo"/>
