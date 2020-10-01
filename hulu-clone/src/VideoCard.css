@@ -5,6 +5,10 @@
     padding: 20px;
 }
 
+.videoCard:hover {
+    transform: scale(1.09);
+}
+
 .videoCard > img {
     height: 300px;
     object-fit: contain;
