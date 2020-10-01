@@ -4,7 +4,7 @@ import VideoCard from './VideoCard'
 import axios from  './axios'
 import requests from './requests'
 
-function Results() {
+function Results( {selectedOption}) {
     const [movies, setMovies] = useState([]);
 
     useEffect(() => {
