@@ -22,4 +22,10 @@
     margin-left: 30px;
     margin-right: 30px;
     font-weight: 500;
+    opacity: 0.7;
+}
+
+.nav > h2:hover {
+    opacity: 1;
+    transform: scale(1.2)
 }
