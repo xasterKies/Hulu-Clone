@@ -1,5 +1,5 @@
 import React from 'react'
-import './VideoCard'
+import './VideoCard.css'
 
 function VideoCard({ movie }) {
     return (
