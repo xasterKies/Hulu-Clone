@@ -34,4 +34,7 @@
 .header__icon > p {
     text-transform: uppercase;
     letter-spacing: 3px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: small;
 }
