@@ -12,10 +12,9 @@ function VideoCard({ movie }) {
               line={1}
               element="p"
               truncateText="..."
-              textTruncateChild={<a href="#">Read on</a>}
               text={movie.overview}
             />
-            <h2>Movie title</h2>
+            <h2>{movie.title || movie.original_name}</h2>
 
             <p>Number of likes...</p>
         </div>
