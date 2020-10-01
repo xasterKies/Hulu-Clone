@@ -8,6 +8,10 @@ function VideoCard({ movie }) {
     return (
         <div className="videoCard">
             <img src={`${base_url}${movie.backdrop_path || movie.poster_path}`} alt=""/>
+            <TextTruncate
+                
+            />
+
             <p>{movie.overview}</p>
             <h2>Movie title</h2>
 
