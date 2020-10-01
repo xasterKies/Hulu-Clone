@@ -23,6 +23,7 @@
     margin-right: 30px;
     font-weight: 500;
     opacity: 0.7;
+    transition: transform 70ms ease-out;
 }
 
 .nav > h2:hover {
