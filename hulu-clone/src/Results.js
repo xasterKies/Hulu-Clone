@@ -3,15 +3,13 @@ import './Results.css'
 import VideoCard from './VideoCard'
 
 function Result() {
+    const [movies, setMovies] = useState([]);
     return (
         <div className="results">
-            <VideoCard/>
-            <VideoCard/>
-            <VideoCard/>
-            <VideoCard/>
-            <VideoCard/>
-            <VideoCard/>
-            <VideoCard/>
+            {movies.map(movie => {
+                <VideoCard/>
+            })}
+            
             
         </div>
     )
