@@ -1,7 +1,7 @@
 import React from 'react'
 import './Nav.css'
 
-function Nav() {
+function Nav({setSelectedOption}) {
     return (
         <div className="nav">
             <h2>Trending</h2>
