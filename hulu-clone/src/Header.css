@@ -32,9 +32,14 @@
 }
 
 .header__icon > p {
+    display: none;
     text-transform: uppercase;
     letter-spacing: 3px;
     margin-left: auto;
     margin-right: auto;
     font-size: small;
+}
+
+.header__icon:hover > p {
+    display: inline;
 }
