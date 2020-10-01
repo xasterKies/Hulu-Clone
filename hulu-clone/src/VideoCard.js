@@ -1,7 +1,7 @@
 import React from 'react'
 import './VideoCard'
 
-function VideoCard() {
+function VideoCard({ movie }) {
     return (
         <div className="videoCard">
             
