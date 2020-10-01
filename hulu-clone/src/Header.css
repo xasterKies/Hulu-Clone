@@ -43,3 +43,7 @@
 .header__icon:hover > p {
     display: inline;
 }
+
+.header__icon--active > p {
+    display: inline;
+}
