@@ -6,13 +6,13 @@ import Results from './Results'
 import requests from "./requests"
 
 function App() {
-  const [selectedOption, setSelectedOption]= useState("");
+  const [selectedOption, setSelectedOption]= useState(requests.fetchTrending);
 
   return (
     <div className="app">
       
       <Header/>
-      <Nav/>
+      <Nav />
       <Results selectedOption={selectedOption}/>
     </div>
   );
