@@ -12,7 +12,10 @@
     display: none;
 }
 
-
+.header {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
 
 .header__icons {
     display: flex;
