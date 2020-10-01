@@ -20,11 +20,25 @@ function Header() {
                     <FlashOnIcon/>
                     <p>Trending</p>
                 </div>
+                <div className="header__icon">
+                    <LiveTvIcon/>
+                    <p>Live Tv</p>
+                </div>
+                <div className="header__icon">
+                    <VideoLibraryIcon/>
+                    <p>Collections</p>
+                </div>
+                <div className="header__icon">
+                    <SearchIcon/>
+                    <p>Search</p>
+                </div>
+                <div className="header__icon">
+                    <PersonOutlineIcon/>
+                    <p>Account</p>
+                </div>
                 
-                <LiveTvIcon/>
-                <SearchIcon/>
-                <VideoLibraryIcon/>
-                <PersonOutlineIcon/>
+                
+                
 
             </div>
             <img src="https://press.hulu.com/wp-content/uploads/2020/02/hulu-white.png" alt="logo"/>
