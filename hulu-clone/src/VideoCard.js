@@ -5,7 +5,7 @@ import ThumbUpSharp from '@material-ui/icons/ThumbUpSharp'
 
 const base_url = "http://image.tmdb.org/t/p/original";
 
-const VideoCard = forwardRef(({ movie }, ref) => {
+const VideoCard = forwardRef(({ movie }, ref) =>{
     return (
         <div ref={ref} className="videoCard">
             <img src={`${base_url}${movie.backdrop_path || movie.poster_path}`} alt=""/>
