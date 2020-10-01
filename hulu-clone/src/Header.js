@@ -12,8 +12,15 @@ function Header() {
     return (
         <div className="header">
             <div className="header__icons">
-                <HomeIcon/>
-                <FlashOnIcon/>
+                <div className="header__icon">
+                    <HomeIcon/>
+                    <p>Home</p>
+                </div>
+                <div className="header__icon">
+                    <FlashOnIcon/>
+                    <p>Trending</p>
+                </div>
+                
                 <LiveTvIcon/>
                 <SearchIcon/>
                 <VideoLibraryIcon/>
