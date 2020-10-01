@@ -16,16 +16,13 @@ function VideoCard({ movie }) {
               text={movie.overview}
             />
             <h2>{movie.title || movie.original_name}</h2>
-            <p>
-                {movie.media_type && `${movie.media_type} - `}
-                {movie.release_date || movie.first_air_date}
-            </p>
 
             <p>
                 {movie.media_type && `${movie.media_type} - `}
                 {movie.release_date || movie.first_air_date}
                 <ThumbUpSharp/>
-                {movie.vote_count}</p>
+                {movie.vote_count}
+            </p>
         </div>
     )
 }
