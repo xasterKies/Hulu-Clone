@@ -1,9 +1,18 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './Results.css'
 import VideoCard from './VideoCard'
 
-function Result() {
+function Results() {
     const [movies, setMovies] = useState([]);
+
+    useEffect(() => {
+        effect
+        return () => {
+            cleanup
+        }
+    }, [input])
+    
+
     return (
         <div className="results">
             {movies.map(movie => {
@@ -15,4 +24,4 @@ function Result() {
     )
 }
 
-export default Result
+export default Results
