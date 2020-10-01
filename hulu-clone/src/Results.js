@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import './Results.css'
 import VideoCard from './VideoCard'
 import axios from  './axios'
