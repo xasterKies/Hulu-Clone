@@ -20,7 +20,7 @@ function Results() {
 
     return (
         <div className="results">
-            {movies.map(movie => {
+            {movies.map((movie) => {
                 <VideoCard movie= {movie}/>
             })}
             
