@@ -21,5 +21,11 @@
 .header__icon {
     display: flex;
     flex-direction: column;
+    cursor: pointer;
     width: 100px;
+}
+
+.header__icon > .MuiSvgIcon-root {
+    margin-left: auto;
+    margin-right: auto;
 }
