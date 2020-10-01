@@ -20,4 +20,5 @@
 
 .header__icon {
     display: flex;
+    flex-direction: column;
 }
