@@ -17,10 +17,15 @@ function VideoCard({ movie }) {
             />
             <h2>{movie.title || movie.original_name}</h2>
             <p>
-                {movie.media_type && `${movie.media_type}  `}
+                {movie.media_type && `${movie.media_type} - `}
+                {movie.release_date || movie.first_air_date}
             </p>
 
-            <p><ThumbUpSharp/>{movie.vote_count}</p>
+            <p>
+                {movie.media_type && `${movie.media_type} - `}
+                {movie.release_date || movie.first_air_date}
+                <ThumbUpSharp/>
+                {movie.vote_count}</p>
         </div>
     )
 }
