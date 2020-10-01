@@ -4,7 +4,7 @@ import './Results.css'
 function Result() {
     return (
         <div>
-            
+            <VideoCard/>
         </div>
     )
 }
