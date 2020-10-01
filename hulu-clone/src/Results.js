@@ -4,7 +4,7 @@ import VideoCard from './VideoCard'
 
 function Result() {
     return (
-        <div>
+        <div className="results">
             <VideoCard/>
             <VideoCard/>
             <VideoCard/>
