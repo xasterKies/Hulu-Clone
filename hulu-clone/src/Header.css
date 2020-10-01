@@ -28,8 +28,9 @@
 .header__icon > .MuiSvgIcon-root {
     margin-left: auto;
     margin-right: auto;
+    font-size: 30px;
 }
 
 .header__icon > p {
-    
+    text-transform: uppercase;
 }
