@@ -8,6 +8,12 @@
     overflow-x: scroll;
 }
 
+.header::-webkit-scrollbar {
+    display: none;
+}
+
+
+
 .header__icons {
     display: flex;
     align-items: center;
