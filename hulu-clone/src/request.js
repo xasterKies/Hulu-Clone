@@ -1,1 +1,1 @@
-const
+const API_KEY = '<>';
