@@ -2,15 +2,16 @@ import React, { useState } from 'react'
 import './Results.css'
 import VideoCard from './VideoCard'
 import axios from  './axios'
-import request from './request'
+import requests from './requests'
 
 function Results() {
     const [movies, setMovies] = useState([]);
 
     useEffect(() => {
         async function fetchData() {
-            const request = await axios.get(request.
-                )
+            const request = await axios.get(requests.fetchActionMovies)
+            setMovies(request.data.results);
+            return request;
         }
 
         fetchData();
