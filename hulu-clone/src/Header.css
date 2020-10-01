@@ -7,6 +7,12 @@
     background-color: black;
 }
 
+.header__icons {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
 .header > img {
     object-fit: contain;
     height: 80px;
