@@ -16,7 +16,9 @@ function VideoCard({ movie }) {
               text={movie.overview}
             />
             <h2>{movie.title || movie.original_name}</h2>
-            
+            <p>
+                {movie.title}
+            </p>
 
             <p><ThumbUpSharp/>{movie.vote_count}</p>
         </div>
