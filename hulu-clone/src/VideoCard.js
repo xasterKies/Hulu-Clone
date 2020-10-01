@@ -9,9 +9,10 @@ function VideoCard({ movie }) {
         <div className="videoCard">
             <img src={`${base_url}${movie.backdrop_path || movie.poster_path}`} alt=""/>
             <TextTruncate
-              line={2}
+              line={1}
               element="p"
               truncateText="..."
+              textTruncateChild={<a href="#">Read on</a>}
               text={movie.overview}
             />
             <h2>Movie title</h2>
