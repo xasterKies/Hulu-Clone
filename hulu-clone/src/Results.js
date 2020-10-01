@@ -6,11 +6,10 @@ function Results() {
     const [movies, setMovies] = useState([]);
 
     useEffect(() => {
-        effect
-        return () => {
-            cleanup
+        async function fetchData() {
+            
         }
-    }, [input])
+    }, [])
     
 
     return (
