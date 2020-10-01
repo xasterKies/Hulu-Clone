@@ -14,7 +14,7 @@ function Results( {selectedOption}) {
         }
 
         fetchData();
-    }, [selectedOption])
+    }, [selectedOption]);
     
 
     return (
