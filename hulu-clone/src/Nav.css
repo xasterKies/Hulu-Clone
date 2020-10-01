@@ -2,4 +2,21 @@
     display: flex;
     color: white;
     overflow-x: scroll;
+    padding: 10px;
+    padding-left: 40px;
+}
+
+/*Hiding scrollbar*/
+.nav::-webkit-scrollbar {
+    display: none;
+}
+
+.nav {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+/*Hiding the scrollbar*/
+
+.nav > h2 {
+    cursor: pointer;
 }
