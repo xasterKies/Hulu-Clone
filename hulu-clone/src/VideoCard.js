@@ -17,7 +17,7 @@ function VideoCard({ movie }) {
             />
             <h2>{movie.title || movie.original_name}</h2>
             <p>
-                {movie.title}
+                {movie.media_type && }
             </p>
 
             <p><ThumbUpSharp/>{movie.vote_count}</p>
